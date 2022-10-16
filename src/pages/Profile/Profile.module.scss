@@ -1,0 +1,26 @@
+.avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+.name {
+  padding-top: 16px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.repoList {
+  padding: 16px 100px;
+  list-style-type: none;
+  & > li {
+    padding-bottom: 16px;
+  }
+  & > li:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.description {
+  color: darkgray;
+}

@@ -1,0 +1,5 @@
+node_modules
+dist
+*.scss.d.ts
+.env
+cypress/videos/*

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "esNext",
+    "target": "es5",
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "isolatedModules": true,
+    "rootDir": "./",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "types": ["cypress"]
+  },
+  "include": [
+    "src",
+    "cypress",
+    "custom.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,15 @@
+:global {
+  
+  body {
+    overflow: scroll;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+  }
+}

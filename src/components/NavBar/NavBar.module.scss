@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  background-color: lightgrey;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.backButton {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 160px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  color: grey;
+  align-items: center;
+  visibility: visible;
+  cursor: pointer;
+}
+
+.hidden {
+  visibility: hidden;
+}
